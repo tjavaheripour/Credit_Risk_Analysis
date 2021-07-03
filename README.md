@@ -6,7 +6,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results:
 
-1- ### Random Oversampling:
+### 1- Random Oversampling:
 
 - Accuracy Score: 66%
 - Precision High Risk: 1%
@@ -16,7 +16,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![RandomOverSampler.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/RandomOverSampler.PNG)
 
-2- ### SMOTE oversampling:
+### 2- SMOTE oversampling:
 
 - Accuracy Score: 65%
 - Precision High Risk: 1%
@@ -26,7 +26,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![SMOTE.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/SMOTE.PNG)
 
-- Cluster Centroids Undersampling:
+### 3- Cluster Centroids Undersampling:
 
 - Accuracy Score: 54%
 - Precision High Risk: 1%
@@ -36,7 +36,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![Undersampling.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/Undersampling.PNG)
 
-- SMOTEENN (combinatorial approach of over- and undersampling):
+### 4- SMOTEENN (combinatorial approach of over- and undersampling):
 
 - Accuracy Score: 68%
 - Precision High Risk: 1%
@@ -46,7 +46,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![SMOTEENN.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.PNG)
 
-- Balanced Random Forest Classifier:
+### 5- Balanced Random Forest Classifier:
 
 - Accuracy Score: 79%
 - Precision High Risk: 3%
@@ -56,7 +56,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![BalancedRandomForestClassifier.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.PNG)
 
-- Easy Ensemble Classifier:
+### 6- Easy Ensemble Classifier:
 
 - Accuracy Score: 93%
 - Precision High Risk: 9%
