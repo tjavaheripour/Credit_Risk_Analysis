@@ -6,26 +6,62 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results:
 
-- Random Oversampling:
+1- ### Random Oversampling:
+
+- Accuracy Score: 66%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 74%
+- Recall Low Risk: 58%
 
 ![RandomOverSampler.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/RandomOverSampler.PNG)
 
-- SMOTE oversampling:
+2- ### SMOTE oversampling:
+
+- Accuracy Score: 65%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 62%
+- Recall Low Risk: 68%
 
 ![SMOTE.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/SMOTE.PNG)
 
 - Cluster Centroids Undersampling:
 
+- Accuracy Score: 54%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 69%
+- Recall Low Risk: 40%
+
 ![Undersampling.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/Undersampling.PNG)
 
 - SMOTEENN (combinatorial approach of over- and undersampling):
+
+- Accuracy Score: 68%
+- Precision High Risk: 1%
+- Precision Low Risk: 100%
+- Recall High Risk: 77%
+- Recall Low Risk: 59%
 
 ![SMOTEENN.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/SMOTEENN.PNG)
 
 - Balanced Random Forest Classifier:
 
+- Accuracy Score: 79%
+- Precision High Risk: 3%
+- Precision Low Risk: 100%
+- Recall High Risk: 70%
+- Recall Low Risk: 87%
+
 ![BalancedRandomForestClassifier.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.PNG)
 
 - Easy Ensemble Classifier:
+
+- Accuracy Score: 93%
+- Precision High Risk: 9%
+- Precision Low Risk: 100%
+- Recall High Risk: 92%
+- Recall Low Risk: 94%
 
 ![EasyEnsembleClassifier.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleClassifier.PNG)
