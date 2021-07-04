@@ -65,3 +65,15 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 - Recall Low Risk: 94%
 
 ![EasyEnsembleClassifier.PNG](https://github.com/tjavaheripour/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleClassifier.PNG)
+
+## Summary:
+
+This analysis is trying to find the best model that can detect if a loan is high risk or not. So, we need to find a model with the highest percentage of accuracy score, balance of precision, and recall scores.
+Looking at the different models, I derived the followings :
+
+The highest high-risk recall: Easy Ensemble Classifier with 92%
+The highest low-risk recall: Easy Ensemble Classifier with 94%
+The highest accuracy : Easy Ensemble Classifier with 93%
+The highest precision score for high risk : Easy Ensemble Classifier with 9%
+
+Therefore, I would recommend the Easy Ensemble Classifier machine learning model to use for predicting high risk loans.
